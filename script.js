@@ -1,6 +1,6 @@
 // Get elements
 const player = document.querySelector('.player');
-const video = player.querySelector('.viewer');
+const video = player.querySelector('.player__video'); // updated selector
 const toggle = player.querySelector('.toggle');
 const progress = player.querySelector('.progress');
 const progressFilled = player.querySelector('.progress__filled');
